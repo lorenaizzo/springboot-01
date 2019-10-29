@@ -15,8 +15,10 @@ public class Tarea {
     private String nombre;
     private Boolean terminada;
 
+    public Integer getId() {return this.id;}
     public String getNombre() {return this.nombre;}
     public Boolean getTerminada() {return this.terminada; }
+    public void setId(Integer value) {this.id = value;}
     public void setNombre(String value) {this.nombre = value;}
     public void setTerminada(Boolean value) {this.terminada = value;}
 
